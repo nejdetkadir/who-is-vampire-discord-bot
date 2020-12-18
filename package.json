@@ -1,0 +1,25 @@
+{
+  "name": "who-is-vampire-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/App.js",
+    "start:dev": "nodemon ./src/App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nejdetkadir/who-is-vampire-discord-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nejdetkadir/who-is-vampire-discord-bot/issues"
+  },
+  "homepage": "https://github.com/nejdetkadir/who-is-vampire-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
