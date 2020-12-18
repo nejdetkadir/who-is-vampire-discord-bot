@@ -32,7 +32,7 @@ client.on('message', (message) => {
                     const key = args[i].split(":")[0];
                     const value = args[i].split(":")[1];
 
-                    if (key !== "yonetici") {
+                    if (key !== "yönetici") {
                         for (let j = 0; j < value; j++) {
                             let randomUserIndex = Math.ceil(Math.random() * (members.length))-1;
 
